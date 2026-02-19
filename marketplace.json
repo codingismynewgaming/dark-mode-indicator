@@ -1,0 +1,60 @@
+{
+  "name": "dark-mode-detection",
+  "version": "1.0.0",
+  "description": "Comprehensive dark mode detection patterns and algorithms for browser extensions and AI agents",
+  "author": "jmkloetzer",
+  "license": "MIT",
+  "homepage": "https://github.com/jmkloetzer/dark-mode-indicator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmkloetzer/dark-mode-indicator.git"
+  },
+  "keywords": [
+    "dark-mode",
+    "theme-detection",
+    "browser-extension",
+    "css",
+    "javascript",
+    "web-development",
+    "ai-agents",
+    "skills"
+  ],
+  "categories": [
+    "web-development",
+    "developer-tools",
+    "accessibility"
+  ],
+  "skills": [
+    {
+      "name": "dark-mode-detection",
+      "path": "skills/dark-mode-detection",
+      "description": "Comprehensive dark mode detection patterns and algorithms for browser extensions",
+      "triggers": [
+        "dark mode",
+        "theme detection",
+        "prefers-color-scheme",
+        "data-theme",
+        "class toggling",
+        "theme switcher",
+        "dark mode detector",
+        "website theme analysis"
+      ],
+      "compatibility": [
+        "claude-code",
+        "cursor",
+        "warp",
+        "github-copilot"
+      ]
+    }
+  ],
+  "scripts": {
+    "install": "npx skills add jmkloetzer/dark-mode-indicator",
+    "test": "node scripts/test-detection.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
