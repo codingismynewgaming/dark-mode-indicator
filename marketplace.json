@@ -4,10 +4,10 @@
   "description": "Comprehensive dark mode detection patterns and algorithms for browser extensions and AI agents",
   "author": "jmkloetzer",
   "license": "MIT",
-  "homepage": "https://github.com/jmkloetzer/dark-mode-indicator",
+  "homepage": "https://github.com/codingismynewgaming/dark-mode-indicator",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jmkloetzer/dark-mode-indicator.git"
+    "url": "https://github.com/codingismynewgaming/dark-mode-indicator.git"
   },
   "keywords": [
     "dark-mode",
@@ -48,7 +48,7 @@
     }
   ],
   "scripts": {
-    "install": "npx skills add jmkloetzer/dark-mode-indicator",
+    "install": "npx skills add codingismynewgaming/dark-mode-indicator",
     "test": "node scripts/test-detection.js"
   },
   "engines": {

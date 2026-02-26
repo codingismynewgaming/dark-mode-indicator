@@ -13,10 +13,10 @@ Install this skill using the skills.sh CLI:
 
 ```bash
 # Install entire repository
-npx skills add jmkloetzer/dark-mode-indicator
+npx skills add codingismynewgaming/dark-mode-indicator
 
 # Or install specific skill
-npx skills add jmkloetzer/dark-mode-indicator --skill dark-mode-detection
+npx skills add codingismynewgaming/dark-mode-indicator --skill dark-mode-detection
 ```
 
 ### Manual Installation
@@ -25,7 +25,7 @@ For project-specific usage:
 
 ```bash
 # Clone the repository
-git clone https://github.com/jmkloetzer/dark-mode-indicator.git
+git clone https://github.com/codingismynewgaming/dark-mode-indicator.git
 
 # Copy to your project's skills directory
 cp -r dark-mode-indicator/skills/dark-mode-detection .claude/skills/
